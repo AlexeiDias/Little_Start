@@ -9,10 +9,12 @@ import Navbar_top from './components/Navbar/navBar';
 import Footer_Page from "./components/Footer/page";
 
 
+
 const jua_font = Jua ({
   subsets: ['latin'],
   weight:  ['400'],
   variable: '--font-jua',
+ 
 })
 export const metadata: Metadata = {
   title:{
@@ -24,6 +26,10 @@ export const metadata: Metadata = {
 }
 
 
+
+
+
+
 export default function RootLayout({
   children,
 }: {
@@ -32,12 +38,15 @@ export default function RootLayout({
   
   return (
     <html lang="en">
-      <body className={jua_font.variable}>
+      <body className={jua_font.variable} >
+     
         <InstallBootstrap />
         <Installgooglefonts />
-        <h1 className="text-center jua mt-5 mb-5">Welcome to Little start day care</h1>
+        <h1  className="tittle text-center jua mt-5 mb-5"><img className="align-center" src="/logo2.png" alt="Logo" width="300" height="auto"/><br></br> Welcome to Little start day care</h1>
+        <h4 className=" text-center jua mt-5 mb-5  fontDarkBrown">Mondays - Fridays 7:30 - 6pm</h4>
+       
            {/*navbar*/}
-        <Navbar_top />
+        <Navbar_top/>
       
         {children}
 

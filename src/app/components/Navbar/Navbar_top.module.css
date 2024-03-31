@@ -1,0 +1,7 @@
+/* Navbar_top.module.css */
+.navbarCenteredItems > ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  

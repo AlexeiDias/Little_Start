@@ -1,14 +1,16 @@
+
 import Link from "next/link"
+
 
 export default function Navbar_top (){
     return (
-      <nav className="jua navbar navbar-expand-lg bg-body-tertiary">
-      <div className="container-fluid">
+      <nav  className="jua navbar navbar-expand-lg bg-body-tertiary " >
+      <div className="container-fluid justify-content-center">
         {/*<a className="navbar-brand" href="#">Navbar</a>*/}
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavDropdown">
+        <div className="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" href="/">Home</Link>
@@ -30,23 +32,32 @@ export default function Navbar_top (){
                 <li><a className="dropdown-item" href="/program/cooking">Let’s get cooking</a></li>
               </ul>
             </li>
-            <li className="nav-item">
+             {/*<li className="nav-item">
              <Link className="nav-link" href="/calendar">Calendar</Link>
-            </li>
+            </li>*/}
             <li className="nav-item">
             <Link className="nav-link" href="/about">About Us</Link>
              
             </li>
-            <li className="nav-item">
+            {/*<li className="nav-item">
             <Link className="nav-link" href="/enrollment">Enrollment</Link>
           
-            </li>
+            </li>*/}
+            {/*<li className="nav-item">
+              <Link className="nav-link" href="/waiting_list">Waiting List</Link>
+            </li>*/}
+            
+            
+            {/*<li className="nav-item">
+              <a className="nav-link" href="/forms">Enrollment Forms Download</a>
+            </li>*/}
+
+            {/*<li className="nav-item">
+              <a className="nav-link" href="/supplemmental">Supplemmental Information</a>
+            </li>*/}
+
             <li className="nav-item">
-            <Link className="nav-link" href="/contact">Contact Us</Link>
-             
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Parent Login</a>
+              <Link className="nav-link" href="/contact">Contact Us</Link>
             </li>
             
           </ul>
