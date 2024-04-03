@@ -5,7 +5,7 @@ export default function CardGroup (){
     return(
         <div className="card-group ">
   <div className="card m-5 backGrounCard"> {/* Add margin to the right of each card */}
-    <Image src="./Cooking.webp" className="card-img-top" alt="..."/>
+    <Image src="/Cooking.webp" className="card-img-top" alt="..." width={500} height={300}/>
     <div className="card-body">
       {/*<h5 className="card-title">Let's get cooking</h5>*/}
       <h5 className="card-text text-center">Welcome to a world where tiny hands make big wonders!  </h5>
@@ -17,7 +17,7 @@ export default function CardGroup (){
     </div>
   </div>
   <div className="card m-5 backGrounCard"> {/* Add margin to the right of each card */}
-  <Image src="./waitingList.webp" className="card-img-top" alt="..."/>
+  <Image src="/waitingList.webp" className="card-img-top" alt="..." width={500} height={300}/>
     <div className="card-body">
       {/*<h5 className="card-title">Let's get cooking</h5>*/}
       <h5 className="card-text text-center pDarkBrown">Discover a place where every day is an adventure and learning knows no bounds!  </h5>
@@ -30,7 +30,7 @@ export default function CardGroup (){
     </div>
   </div>
   <div className="card m-5 backGrounCard"> {/* Add margin to the right of each card */}
-  <Image src="./gallery.webp" className="card-img-top" alt="..."/>
+  <Image src="/gallery.webp" className="card-img-top" alt="..." width={500} height={300}/>
     <div className="card-body">
       {/*<h5 className="card-title">Let's get cooking</h5>*/}
       <h5 className="card-text text-center">Step into a world where imagination has no limits and every color tells a story!   </h5>
@@ -43,7 +43,7 @@ export default function CardGroup (){
     </div>
   </div>
   <div className="card m-5 backGrounCard"> {/* Add margin to the right of each card */}
-  <Image src="./menu2.webp" className="card-img-top" alt="..."/>
+  <Image src="/menu2.webp" className="card-img-top" alt="..." width={500} height={300}/>
     <div className="card-body">
       {/*<h5 className="card-title">Let's get cooking</h5>*/}
       <h5 className="card-text text-center">Welcome to a culinary adventure where every bite is a step towards wellness and vibrant health!  </h5>
