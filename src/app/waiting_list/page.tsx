@@ -18,7 +18,7 @@ export default function Waiting_list (){
         <li >Stay Informed: Receive updates about our programs and events.</li>
         <li >3 Mattertags </li>
         <li >Peace of Mind: Ensure your child&apos;s place in our nurturing setting.</li>
-        <h5>Don&apos;t miss a beat – Join our waiting list today and be part of our family's next chapter.</h5>
+        <h5>Don&apos;t miss a beat – Join our waiting list today and be part of our family&apos;s next chapter.</h5>
         </ul>
         </p>
         </p>
