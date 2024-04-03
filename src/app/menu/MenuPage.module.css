@@ -1,0 +1,28 @@
+/* styles/MenuPage.module.css */
+.menuContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .dayMenu {
+    margin-bottom: 40px;
+  }
+  
+  .meal {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .mealImage {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .mealName {
+    font-weight: bold;
+  }
+  

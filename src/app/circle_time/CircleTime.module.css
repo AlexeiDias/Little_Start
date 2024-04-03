@@ -1,0 +1,37 @@
+/* styles/CircleTime.module.css */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Add some space below the image */
+  }
+  
+  
+  .title {
+    text-align: center;
+    color: #2a9d8f;
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    border-radius: 8px;
+  }
+  
+  .description, .conclusion {
+    text-align: justify;
+    line-height: 1.6;
+  }
+  
+  .list {
+    margin-left: 20px;
+  }
+  
+  .list li {
+    margin-bottom: 10px;
+  }
+  

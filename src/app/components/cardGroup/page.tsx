@@ -16,7 +16,7 @@ export default function CardGroup (){
 </div>
     </div>
   </div>
-  <div className="card m-5"> {/* Add margin to the right of each card */}
+  <div className="card m-5 backGrounCard"> {/* Add margin to the right of each card */}
   <img src="./waitingList.webp" className="card-img-top" alt="..."/>
     <div className="card-body">
       {/*<h5 className="card-title">Let's get cooking</h5>*/}
@@ -29,26 +29,28 @@ export default function CardGroup (){
 </div>
     </div>
   </div>
-  <div className="card m-5"> {/* Add margin to the right of each card */}
+  <div className="card m-5 backGrounCard"> {/* Add margin to the right of each card */}
   <img src="./gallery.webp" className="card-img-top" alt="..."/>
     <div className="card-body">
       {/*<h5 className="card-title">Let's get cooking</h5>*/}
       <h5 className="card-text text-center">Step into a world where imagination has no limits and every color tells a story!   </h5>
       
       <div className="d-grid gap-2 d-md-flex justify-content-md-center">
-      <button type="button" className="btn btn-primary btn-lg ">take a peak</button>
+      <Link className="nav-link" href="/artGallery"><button type="button" className="btn btn-primary btn-lg ">Sign me in</button></Link>
+      
   
 </div>
     </div>
   </div>
-  <div className="card m-5"> {/* Add margin to the right of each card */}
+  <div className="card m-5 backGrounCard"> {/* Add margin to the right of each card */}
   <img src="./menu2.webp" className="card-img-top" alt="..."/>
     <div className="card-body">
       {/*<h5 className="card-title">Let's get cooking</h5>*/}
       <h5 className="card-text text-center">Welcome to a culinary adventure where every bite is a step towards wellness and vibrant health!  </h5>
       
       <div className="d-grid gap-2 d-md-flex justify-content-md-center">
-      <button type="button" className="btn btn-primary btn-lg ">Get hungry</button>
+      <Link className="nav-link" href="/menu"><button type="button" className="btn btn-primary btn-lg ">Sign me in</button></Link>
+      
   
 </div>
   </div>

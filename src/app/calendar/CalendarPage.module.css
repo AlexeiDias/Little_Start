@@ -1,0 +1,12 @@
+/* styles/CalendarPage.module.css */
+.calendarContainer {
+    text-align: center; /* Centers the h1 text */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the calendar div */
+  }
+  
+  .calendar {
+    margin-top: 20px; /* Adds some space above the calendar */
+  }
+  
