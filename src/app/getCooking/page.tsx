@@ -1,4 +1,4 @@
-import { Row, Container } from "react-bootstrap"
+import { Row, Container, Image } from "react-bootstrap"
 
 
 export default function GetCooking (){
@@ -8,12 +8,12 @@ export default function GetCooking (){
             <div className="card mb-3 cardSize backGrounCard" >
   <div className="row g-0">
     <div className="col-md-6">
-      <img src="./cooking.jpg" className="img-fluid rounded-start" alt="..."/>
+      <Image src="./cooking.jpg" className="img-fluid rounded-start" alt="..."/>
     </div>
     <div className="col-md-6">
       <div className="card-body backGrounCard">
       
-        <p className="card-text jua fs-2 align-middle fontDarkBrown">Our "Let's Get Cooking" workshop is specially designed for our daycare's budding chefs, where imagination meets nutrition.</p>
+        <p className="card-text jua fs-2 align-middle fontDarkBrown">Our &quot;Let&quot;s Get Cooking&quot; workshop is specially designed for our daycare&quot;s budding chefs, where imagination meets nutrition.</p>
         
       </div>
     </div>
@@ -25,19 +25,19 @@ export default function GetCooking (){
     <div className="col-md-6 backGrounCard">
       <div className="card-body ">
       
-        <p className="card-text jua fs-2 fontDarkBrown">It's more than just mixing ingredients; it's about creating joy, learning life skills, and embracing healthy eating.</p>
+        <p className="card-text jua fs-2 fontDarkBrown">It&quot;s more than just mixing ingredients; it&quot;s about creating joy, learning life skills, and embracing healthy eating.</p>
         
       </div>
     </div>
     <div className="col-md-6 ">
-      <img src="./muffin.jpeg" className="img-fluid rounded-start" alt="..."/>
+      <Image src="./muffin.jpeg" className="img-fluid rounded-start" alt="..."/>
     </div>
   </div>
 </div>
 <div className="card mb-3 cardSize backGrounCard" >
   <div className="row g-0">
     <div className="col-md-6">
-      <img src="./pastel2.png" className="img-fluid rounded-start" alt="..."/>
+      <Image src="./pastel2.png" className="img-fluid rounded-start" alt="..."/>
     </div>
     <div className="col-md-6 backGrounCard">
       <div className="card-body ">
@@ -65,7 +65,7 @@ export default function GetCooking (){
 Duration: Weekly sessions, 1 hour each
 What’s Cooking?: A delightful mix of easy, nutritious recipes
 
-👩‍🍳 Spots are limited – Sign up today and let's stir up some fun!
+👩‍🍳 Spots are limited – Sign up today and let&quot;s stir up some fun!
         </p>
     
   </div>

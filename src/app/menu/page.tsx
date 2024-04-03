@@ -1,4 +1,4 @@
-
+import Image from 'next/image';
 import styles from './MenuPage.module.css';
 
 const weeklyMenu = [
@@ -114,7 +114,7 @@ export default function MenuPage() {
           {Object.entries(dayMenu.meals).map(([mealTime, mealDetails], mealIndex) => (
             <div key={mealIndex} className={styles.meal}>
               <h3>{mealTime.charAt(0).toUpperCase() + mealTime.slice(1)}</h3>
-              <img src={mealDetails.image} alt={mealDetails.name} className={styles.mealImage} />
+              <Image src={mealDetails.image} alt={mealDetails.name} className={styles.mealImage} />
               <p className={styles.mealName}>{mealDetails.name}</p>
               <p>{mealDetails.description}</p>
             </div>

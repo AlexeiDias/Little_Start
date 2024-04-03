@@ -1,6 +1,7 @@
 "use client"
 import  Masonry  from 'react-masonry-css';
 import styles from './Gallery.module.css';
+import Image from 'next/image'; // Import Image component
 
 const breakpointColumnsObj = {
   default: 4,
@@ -28,7 +29,7 @@ export default function Gallery() {
       >
         {images.map((image, index) => (
           <div key={index}>
-            <img src={image.src} alt={image.alt} style={{ width: '100%', display: 'block' }} />
+            <Image src={image.src} alt={image.alt} style={{ width: '100%', display: 'block' }} />
           </div>
         ))}
       </Masonry>

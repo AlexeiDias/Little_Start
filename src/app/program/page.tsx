@@ -37,7 +37,7 @@ export default function OurDay() {
         <h6>Farewell Until Tomorrow</h6>
         <p>As our day at Little Star Daycare draws to a close, we bid farewell to our little stars, sending them home with hearts full of joy, minds brimming with new knowledge, and bodies energized by wholesome care. Each day is a step on their journey of growth, and we’re honored to guide them, one joyful day at a time.</p>
         <p>At Little Star Daycare, every day is an adventure, a learning experience, and a step toward a brighter future. Join us, and let’s make each day count!</p>
-        <p className='f-2'>Each week, we'll return all projects completed by the children to their parents. This way, you'll stay updated on your child's progress and the creative milestones they've reached throughout the week.</p>
+        <p className='f-2'>Each week, we&apos;ll return all projects completed by the children to their parents. This way, you&apos;ll stay updated on your child&apos;s progress and the creative milestones they&apos;ve reached throughout the week.</p>
         {/* Continue with the rest of the text */}
       </div>
     </div>

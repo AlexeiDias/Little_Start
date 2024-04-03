@@ -17,7 +17,7 @@ export default function CircleTime() {
 </div>
 
       <p className={styles.description}>
-        Preschool Circle Time is not just a routine gathering; it's a vibrant and essential part of our day that fosters social, emotional, cognitive, and language development among young learners. This special time provides a structured setting for children to bond, share experiences, and explore new ideas together, laying the groundwork for a lifelong love of learning.
+        Preschool Circle Time is not just a routine gathering; it&apos;s a vibrant and essential part of our day that fosters social, emotional, cognitive, and language development among young learners. This special time provides a structured setting for children to bond, share experiences, and explore new ideas together, laying the groundwork for a lifelong love of learning.
       </p>
       <h2>Why Circle Time Matters</h2>
       <ul className={styles.list}>
@@ -27,7 +27,7 @@ export default function CircleTime() {
         <li>Supports Language Skills: Rich opportunities for speaking, listening, and new vocabulary.</li>
       </ul>
       <p className={styles.conclusion}>
-        Join us in celebrating the wonder and joy of Circle Time, where every moment is an opportunity for growth, connection, and discovery. Dive into our circle, where every child's voice is heard, and every story matters.
+        Join us in celebrating the wonder and joy of Circle Time, where every moment is an opportunity for growth, connection, and discovery. Dive into our circle, where every child&apos;s voice is heard, and every story matters.
       </p>
     </div>
   );

@@ -7,6 +7,7 @@ import Installgooglefonts from "./components/installgooglefonts";
 import {Jua} from 'next/font/google';
 import Navbar_top from './components/Navbar/navBar';
 import Footer_Page from "./components/Footer/page";
+import Image from "next/image";
 
 
 
@@ -42,7 +43,7 @@ export default function RootLayout({
      
         <InstallBootstrap />
         <Installgooglefonts />
-        <h1  className="tittle text-center jua mt-5 mb-5"><img className="align-center" src="/logo2.png" alt="Logo" width="300" height="auto"/><br></br> Welcome to Little start day care</h1>
+        <h1  className="tittle text-center jua mt-5 mb-5"><Image className="align-center" src="/logo2.png" alt="Logo" width="300" height="auto"/><br></br> Welcome to Little start day care</h1>
         <h4 className=" text-center jua mt-5 mb-5  fontDarkBrown">Mondays - Fridays 7:30 - 6pm</h4>
        
            {/*navbar*/}
