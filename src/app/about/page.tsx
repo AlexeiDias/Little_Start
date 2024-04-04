@@ -21,7 +21,7 @@ export default function AboutUs() {
         />
       </div>
       <div className={styles.text}>
-        <h2>🌟 About Us at [Your Daycare Name] 🌟</h2>
+        <h4  className='text-center'>🌟 About Us at Little Start Daycare 🌟</h4>
         <p>Hello, wonderful families! I&apos;m Tais Deschamps, a devoted mother to two incredible children, aged 7 and 8, and a passionate holistic nutritionist enthusiast. At [Your Daycare Name], nestled in the heart of our family home, we&apos;ve created a vibrant, nurturing space where young minds and bodies can thrive.</p>
         <h6>Our Philosophy</h6>
         <p>We believe that every child deserves a holistic approach to care that nourishes the body, mind, and spirit. That&apos;s why we&apos;re committed to serving nutritious meals for breakfast, lunch, dinner, and snacks, carefully prepared to ensure our little ones are fueled with the energy they need for a day full of discovery.</p>

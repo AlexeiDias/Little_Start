@@ -23,14 +23,21 @@ export default function Waiting_list (){
         </p>
         </p>
     </div>
-        <div className="card-footer text-body-secondary">
+    <div className="card">
   {/*<h5 className="card-text m-2"> Please fill up our Waiting List form belllow*/}
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZ_z3gPMYtbbAS1y9pr-ytL9vKytv0bdpJfLt6ciCkYMKQVw/viewform?embedded=true" width="640" height="1262" style={{ border: 'none', margin: '0' }} // Apply inline styles
+
+  
+  <iframe
+  src="https://docs.google.com/forms/d/e/1FAIpQLSeZ_z3gPMYtbbAS1y9pr-ytL9vKytv0bdpJfLt6ciCkYMKQVw/viewform?embedded=true"
+  width="auto"
+  height="1262"
+  style={{ border: 'none', margin: '0' }} // Apply inline styles
   loading="lazy"
 >
   Loading…
 </iframe>
-    </div>
+
+        </div>
     </div>
       </Row>
       
