@@ -14,8 +14,8 @@ const images = [
   // Add your image URLs here
   // Example: { src: '/path/to/image1.jpg', alt: 'Description of image 1' },
   { src: './pastel2.png', alt: 'Description of image 1' },
-  { src: './photo1.png', alt: 'Description of image 1' },
-  { src: './photo3.JPG', alt: 'Description of image 1' },
+  { src: '../photo1.png', alt: 'Description of image 1' },
+  { src: '/photo3.JPG', alt: 'Description of image 1' },
   
 ];
 

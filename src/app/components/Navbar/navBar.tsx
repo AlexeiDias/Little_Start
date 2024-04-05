@@ -45,10 +45,10 @@ export default function Navbar_top (){
             <Link className="nav-link" href="/about">About Us</Link>
              
             </li>
-            {/*<li className="nav-item">
+            <li className="nav-item">
             <Link className="nav-link" href="/enrollment">Enrollment</Link>
           
-            </li>*/}
+            </li>
             {/*<li className="nav-item">
               <Link className="nav-link" href="/waiting_list">Waiting List</Link>
             </li>*/}
