@@ -6,7 +6,7 @@ export default function OurDay() {
   return (
    
     <div className={styles.container}>
-      <h1 className={styles.title}>Welcome to our cheef tods program</h1>
+      <h2 className={`styles.title jua text-center fontLighBrown`}>Welcome to our cheef tods program</h2>
       <div className={styles.imageWrapper}>
         <Image
           src="/cooking.jpg" // Replace with your image path

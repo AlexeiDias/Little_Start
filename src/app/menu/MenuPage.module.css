@@ -25,4 +25,13 @@
   .mealName {
     font-weight: bold;
   }
+
+  /* styles/MenuPage.module.css */
+.textStyle {
+  font-family: 'Jua', sans-serif; /* Assuming 'Jua' is the font name, ensure it's imported globally */
+  color: #503621;
+}
+
+/* Other styles remain unchanged */
+
   

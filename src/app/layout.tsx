@@ -43,13 +43,13 @@ export default function RootLayout({
      
         <InstallBootstrap />
         <Installgooglefonts />
-        <h1 className="title text-center jua mt-5 mb-5">
+        <h1 className="title text-center jua mt-5 mb-5 fontDarkBrown">
   <Image className="align-center" src="/logo2.png" alt="Logo" width={300} height={300} />
   <br /><br />
   Welcome to Little Start Day Care
 </h1>
 
-        <h4 className=" text-center jua mt-5 mb-5  fontDarkBrown">Mondays - Fridays 7:30 - 6pm</h4>
+        <h4 className=" text-center jua mt-5 mb-5  fontLighBrown">Mondays - Fridays 7:30 - 6pm</h4>
        
            {/*navbar*/}
         <Navbar_top/>

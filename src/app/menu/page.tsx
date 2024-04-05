@@ -7,17 +7,17 @@ const weeklyMenu = [
     meals: {
       breakfast: {
         name: 'Whole Grain Pancakes with Fresh Berries',
-        image: './Whole-Wheat-Pancakes.jpg', // Replace with the path to your image
+        image: '/Whole-Wheat-Pancakes.jpg', // Replace with the path to your image
         description: 'A delightful start with whole grain pancakes topped with a colorful mix of fresh berries.'
       },
       lunch: {
         name: 'Quinoa Salad with Roasted Vegetables',
-        image: './Quinoa.jpg', // Replace with the path to your image
+        image: '/Quinoa.jpg', // Replace with the path to your image
         description: 'Nutritious quinoa salad mixed with a variety of roasted seasonal vegetables.'
       },
       dinner: {
         name: 'Grilled Chicken with Sweet Potato Mash',
-        image: './grilled-chicken.webp', // Replace with the path to your image
+        image: '/grilled-chicken.webp', // Replace with the path to your image
         description: 'Tender grilled chicken served with a side of creamy sweet potato mash.'
       }
     }
@@ -27,17 +27,17 @@ const weeklyMenu = [
     meals: {
       breakfast: {
         name: 'Whole Grain Pancakes with Fresh Berries',
-        image: '/images/pancakes.jpg', // Replace with the path to your image
+        image: '/Whole-Wheat-Pancakes.jpg', // Replace with the path to your image
         description: 'A delightful start with whole grain pancakes topped with a colorful mix of fresh berries.'
       },
       lunch: {
         name: 'Quinoa Salad with Roasted Vegetables',
-        image: '/images/quinoa-salad.jpg', // Replace with the path to your image
+        image: '/Quinoa.jpg', // Replace with the path to your image
         description: 'Nutritious quinoa salad mixed with a variety of roasted seasonal vegetables.'
       },
       dinner: {
         name: 'Grilled Chicken with Sweet Potato Mash',
-        image: '/images/grilled-chicken.jpg', // Replace with the path to your image
+        image: '/grilled-chicken.webp', // Replace with the path to your image
         description: 'Tender grilled chicken served with a side of creamy sweet potato mash.'
       }
     }
@@ -47,17 +47,17 @@ const weeklyMenu = [
     meals: {
       breakfast: {
         name: 'Whole Grain Pancakes with Fresh Berries',
-        image: '/images/pancakes.jpg', // Replace with the path to your image
+        image: '/Whole-Wheat-Pancakes.jpg', // Replace with the path to your image
         description: 'A delightful start with whole grain pancakes topped with a colorful mix of fresh berries.'
       },
       lunch: {
         name: 'Quinoa Salad with Roasted Vegetables',
-        image: '/images/quinoa-salad.jpg', // Replace with the path to your image
+        image: '/Quinoa.jpg', // Replace with the path to your image
         description: 'Nutritious quinoa salad mixed with a variety of roasted seasonal vegetables.'
       },
       dinner: {
         name: 'Grilled Chicken with Sweet Potato Mash',
-        image: '/images/grilled-chicken.jpg', // Replace with the path to your image
+        image: '/grilled-chicken.webp', // Replace with the path to your image
         description: 'Tender grilled chicken served with a side of creamy sweet potato mash.'
       }
     }
@@ -67,17 +67,17 @@ const weeklyMenu = [
     meals: {
       breakfast: {
         name: 'Whole Grain Pancakes with Fresh Berries',
-        image: '/images/pancakes.jpg', // Replace with the path to your image
+        image: '/Whole-Wheat-Pancakes.jpg', // Replace with the path to your image
         description: 'A delightful start with whole grain pancakes topped with a colorful mix of fresh berries.'
       },
       lunch: {
         name: 'Quinoa Salad with Roasted Vegetables',
-        image: '/images/quinoa-salad.jpg', // Replace with the path to your image
+        image: '/Quinoa.jpg', // Replace with the path to your image
         description: 'Nutritious quinoa salad mixed with a variety of roasted seasonal vegetables.'
       },
       dinner: {
         name: 'Grilled Chicken with Sweet Potato Mash',
-        image: '/images/grilled-chicken.jpg', // Replace with the path to your image
+        image: '/grilled-chicken.webp', // Replace with the path to your image
         description: 'Tender grilled chicken served with a side of creamy sweet potato mash.'
       }
     }
@@ -87,17 +87,17 @@ const weeklyMenu = [
     meals: {
       breakfast: {
         name: 'Whole Grain Pancakes with Fresh Berries',
-        image: '/images/pancakes.jpg', // Replace with the path to your image
+        image: '/Whole-Wheat-Pancakes.jpg', // Replace with the path to your image
         description: 'A delightful start with whole grain pancakes topped with a colorful mix of fresh berries.'
       },
       lunch: {
         name: 'Quinoa Salad with Roasted Vegetables',
-        image: '/images/quinoa-salad.jpg', // Replace with the path to your image
+        image: '/Quinoa.jpg', // Replace with the path to your image
         description: 'Nutritious quinoa salad mixed with a variety of roasted seasonal vegetables.'
       },
       dinner: {
         name: 'Grilled Chicken with Sweet Potato Mash',
-        image: '/images/grilled-chicken.jpg', // Replace with the path to your image
+        image: '/grilled-chicken.webp', // Replace with the path to your image
         description: 'Tender grilled chicken served with a side of creamy sweet potato mash.'
       }
     }
@@ -107,16 +107,23 @@ const weeklyMenu = [
 
 export default function MenuPage() {
   return (
-    <div className={styles.menuContainer}>
+    <div className={`${styles.menuContainer} ${styles.textStyle}`}>
       {weeklyMenu.map((dayMenu, index) => (
-        <div key={index} className={styles.dayMenu}>
-          <h2>{dayMenu.day}</h2>
+        <div key={index} className={`${styles.dayMenu} ${styles.textStyle}`}>
+          <h2 className={styles.textStyle}>{dayMenu.day}</h2>
           {Object.entries(dayMenu.meals).map(([mealTime, mealDetails], mealIndex) => (
-            <div key={mealIndex} className={styles.meal}>
-              <h3>{mealTime.charAt(0).toUpperCase() + mealTime.slice(1)}</h3>
-              <Image src={mealDetails.image} alt={mealDetails.name} className={styles.mealImage} />
+            <div key={mealIndex} className={`${styles.meal} ${styles.textStyle}`}>
+              <h3 className={styles.textStyle}>{mealTime.charAt(0).toUpperCase() + mealTime.slice(1)}</h3>
+              <Image 
+                src={mealDetails.image} 
+                alt={mealDetails.name} 
+                className={`${styles.mealImage} ${styles.textStyle}`} 
+                width={500}
+                height={300}
+                layout="responsive"
+              />
               <p className={styles.mealName}>{mealDetails.name}</p>
-              <p>{mealDetails.description}</p>
+              <p className={styles.textStyle}>{mealDetails.description}</p>
             </div>
           ))}
         </div>
@@ -124,3 +131,5 @@ export default function MenuPage() {
     </div>
   );
 }
+
+
