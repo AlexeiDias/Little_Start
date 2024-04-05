@@ -8,7 +8,7 @@ export default function enrollment() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}><SaveAltIcon /> Welcome to our Daycare Forms Section!</h1>
-        <p> Here, parents can easily access and download all the necessary forms required for enrolling their child in our daycare. Each form is designed to ensure your child&apos;s safety, health, and well-being while under our care. Below, you&apos;ll find clickable links for each form. After filling out the required information, please print and bring the completed forms to our office. For your convenience, each form also includes a "Click Here" link that directs you to the official government website, where you can fill out and print the PDF version of the form.</p>
+        <p> Here, parents can easily access and download all the necessary forms required for enrolling their child in our daycare. Each form is designed to ensure your child&apos;s safety, health, and well-being while under our care. Below, you&apos;ll find clickable links for each form. After filling out the required information, please print and bring the completed forms to our office. For your convenience, each form also includes a &apos;Click Here&apos; link that directs you to the official government website, where you can fill out and print the PDF version of the form.</p>
         <div>
             <ul>
                 <li>
