@@ -8,7 +8,7 @@ export default function CardGroup (){
           <div className="card m-5 backGrounCard"> 
     <Image src="/Cooking.webp" className="card-img-top" alt="..." width={500} height={300}/>
     <div className="card-body">
-      <h5 className="card-title">Let's get cooking</h5>
+      <h5 className="card-title">Let&apos;s get cooking</h5>
       <h5 className="card-text text-center">Welcome to a world where tiny hands make big wonders!  </h5>
       
       <div className="d-flex justify-content-center">
