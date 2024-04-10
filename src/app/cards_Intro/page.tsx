@@ -14,7 +14,7 @@ export default function Cards_intro() {
      
       <div className={styles.text}>
         <h4  className='text-center'>🌟 Explore Little Start 🌟</h4>
-        <p>Dive deeper into the heart of Little Start Daycare with just a click! Each card below opens a window into our world, where nurturing care, holistic growth, and joyful discovery come together. From our philosophy to our daily adventures, learn more about how we make every day special for our little stars. Click on any card to start exploring—we can't wait to share our story with you!
+        <p>Dive deeper into the heart of Little Start Daycare with just a click! Each card below opens a window into our world, where nurturing care, holistic growth, and joyful discovery come together. From our philosophy to our daily adventures, learn more about how we make every day special for our little stars. Click on any card to start exploring—we can&apos;t wait to share our story with you!
 
 </p>
         

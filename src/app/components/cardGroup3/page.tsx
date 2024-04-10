@@ -27,7 +27,7 @@ export default function CardGroup3 (){
   <Image src="/calendar.webp" className="card-img-top" alt="..." width={500} height={300}/>
     <div className="card-body">
       
-      <h5 className=" jua card-text text-center fontDarkBrown">Our calendar it's filled with joy and anticipation for all the special days at the daycare!  </h5>
+      <h5 className=" jua card-text text-center fontDarkBrown">Our calendar it&apos;s filled with joy and anticipation for all the special days at the daycare!  </h5>
       
       <div className="d-flex justify-content-center">
       <Link className="nav-link" href="/calendar"><button type="button" className="btn btn-primary btn-lg ">Sign me in</button></Link>
