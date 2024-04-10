@@ -15,12 +15,7 @@ export default function Navbar_top (){
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" href="/">Home</Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" href="/program">Program</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" href="/calendar">Calendar</Link>
-            </li>
+            
             {/*<li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Program
@@ -67,6 +62,7 @@ export default function Navbar_top (){
             </li>
             
           </ul>
+          
         </div>
       </div>
     </nav>
