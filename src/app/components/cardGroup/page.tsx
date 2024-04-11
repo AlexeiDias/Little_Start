@@ -30,7 +30,7 @@ export default function CardGroup (){
       <h5 className=" jua card-text text-center fontDarkBrown">Welcome to a culinary adventure where every bite is a step towards wellness and vibrant health!  </h5>
       
       <div className="d-flex justify-content-center">
-      <Link className="nav-link" href="/menu"><button type="button" className="btn btn-primary btn-lg ">Sign me in</button></Link>
+      <Link className="nav-link" href="/menu"><button type="button" className="btn btn-primary btn-lg ">Take a peek</button></Link>
       
   
 </div>

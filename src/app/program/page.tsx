@@ -6,23 +6,14 @@ export default function OurDay() {
   return (
    
     <div className={styles.container}>
-      <h1 className={styles.title}>A Day at Little Star Daycare</h1>
-      <div className={styles.imageWrapper}>
-        <Image
-          src="/Joy.jpg" // Replace with your image path
-          alt="Our Daycare"
-          width={600}
-          height={400}
-          layout="responsive"
-         
-        />
-      </div>
+      <h1 className={styles.title}>🌟 A Day at Little Star Daycare 🌟</h1>
+      
       <div className={styles.text}>
         {/* Insert the provided text here, structuring it into paragraphs */}
         <p>Welcome to a day filled with discovery, joy, and growth at Little Star Daycare, where each moment is an opportunity for our little stars to shine brighter. Our day is thoughtfully planned to nurture the minds, bodies, and spirits of our young learners, ensuring they receive a balanced mix of education, play, and rest. Here’s a glimpse into a typical day with us:</p>
         <div className={styles.imageWrapper}>
         <Image
-          src="/Joy.jpg" // Replace with your image path
+          src="/Breakfast.jpeg" // Replace with your image path
           alt="Our Daycare"
           width={600}
           height={400}
@@ -34,7 +25,7 @@ export default function OurDay() {
         <p>Our day begins as we welcome our children with warm smiles into our cozy, inviting space. We kickstart the morning with a delicious homemade breakfast, lovingly prepared to fuel their bodies and minds for the day ahead. It’s a time of gentle chatter and laughter as we gather around the table, sharing stories and plans for the day.</p>
         <div className={styles.imageWrapper}>
         <Image
-          src="/Joy.jpg" // Replace with your image path
+          src="/circle-time-png.webp" // Replace with your image path
           alt="Our Daycare"
           width={600}
           height={400}

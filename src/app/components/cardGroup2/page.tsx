@@ -18,7 +18,7 @@ export default function CardGroup2 (){
       <h5 className=" jua card-text text-center fontDarkBrown">Step into a world where imagination has no limits and every color tells a story!   </h5>
       
       <div className="d-flex justify-content-center">
-      <Link className="nav-link" href="/artGallery"><button type="button" className="btn btn-primary btn-lg ">Sign me in</button></Link>
+      <Link className="nav-link" href="/artGallery"><button type="button" className="btn btn-primary btn-lg ">Visit</button></Link>
       
   
 </div>

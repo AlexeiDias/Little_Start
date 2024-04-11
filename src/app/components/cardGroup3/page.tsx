@@ -30,7 +30,7 @@ export default function CardGroup3 (){
       <h5 className=" jua card-text text-center fontDarkBrown">Our calendar it&apos;s filled with joy and anticipation for all the special days at the daycare!  </h5>
       
       <div className="d-flex justify-content-center">
-      <Link className="nav-link" href="/calendar"><button type="button" className="btn btn-primary btn-lg ">Sign me in</button></Link>
+      <Link className="nav-link" href="/calendar"><button type="button" className="btn btn-primary btn-lg ">Check it out</button></Link>
       
   
 </div>
